@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(image/background.jpg);
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+   
+}
+.main .box{
+    height: 80vh;
+    width: 100vw;
+    opacity: 0.64;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 60vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 53px;
+    
+}
+nav img{
+    color: red;
+    width: 89px;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+ .hero{
+    font-family: 'Martel Sans',sans-serif;
+    height:calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    gap: 23px;
+    padding: 0 30px;
+
+ }
+ .hero> :first-child{
+   
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+        
+    
+ }
+ .hero>:nth-child(2){
+    font-size:  22px;
+    font-weight: 400;
+    text-align: center;
+
+ }
+ .hero>:nth-child(3){
+    font-size:  22px;
+    font-weight: 400;
+    text-align: center;
+}
+ .lineseparate{
+    height: 7px;
+    background-color:rgb(49, 47, 47);
+ }
+ .r1{
+    font-weight: 400;
+    padding: 2px 6px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color:rgb(49, 47, 47);
+    color: white;
+ }
+ .r2{
+    background-color: red;
+    color: white;
+   padding: 2px 6px;
+   font-size: 20;
+   border: 1px solid black;
+   border-radius: 3px;
+  
+   
+ }
+ .r3{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding:6px 10px 10px 13px;
+    font-size: 20px;
+    margin-top: 4vh;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+   
+
+ }
+ input{
+    background-color: rgba(23, 23, 23 ,0.2);
+    padding: 7px 101px 8px 14px;
+    text-align:left;
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: white;
+    
+ }
+ ::placeholder{
+    color:white;
+ }
+    
+ 
+ .first{
+   display: flex;
+   justify-content: center;
+   
+   gap: 60px;
+   max-width: 70vw;
+   margin: auto;
+   color: white;
+   justify-content: center;
+   align-items: center;
+ }
+ @media screen and (max-width:1300px) {
+  .first1 {
+    flex-wrap: wrap;
+  }
+}
+  @media screen and (max-width:1300px) {
+    .first {
+      flex-wrap: wrap;
+    }
+ }
+ @media screen and (max-width:1300px) {
+  .first3 {
+    flex-wrap: wrap;
+  }}
+ .secimg{
+   padding-top: 55px;
+   position: relative;
+ }
+ .secimg img{
+   width: 30vw;
+   border: 3px solid black;
+   border-radius: 2px;
+ }
+   section div{
+      display: flex;
+      flex-direction: column;
+      
+   }
+ 
+ section.first> div :nth-child(1){
+   font-size: 48px;
+   font-weight: bolder;
+ }
+ section.first> div :nth-child(2){
+   font-size: 24px;
+
+ }
+ .first1{
+   display: flex;
+   justify-content: center;
+   
+   gap: 60px;
+   max-width: 70vw;
+   margin: auto;
+   color: white;
+   justify-content: center;
+   align-items: center;
+ }
+ .secimg1{
+   padding-top: 55px;
+   position: relative;
+ }
+ .secimg1 video {
+   width: 30vw;
+ }
+   section div{
+      display: flex;
+      flex-direction: column;
+      
+   }
+ 
+ section.first1> div :nth-child(1){
+   font-size: 48px;
+   font-weight: bolder;
+ }
+ section.first1> div :nth-child(2){
+   font-size: 24px;
+
+ }
+ .first3{
+   display: flex;
+   justify-content: center;
+   
+   gap: 60px;
+   max-width: 70vw;
+   margin: auto;
+   color: white;
+   justify-content: center;
+   align-items: center;
+ }
+ .secimg3{
+   padding-top: 55px;
+   position: relative;
+ }
+ .secimg3 img {
+   width: 20vw;
+ }
+   section div{
+      display: flex;
+      flex-direction: column;
+      
+   }
+ 
+ section.first3> div :nth-child(1){
+   font-size: 48px;
+   font-weight: bolder;
+ }
+ section.first3> div :nth-child(2){
+   font-size: 24px;
+
+ }
+ .box6{
+  display: flex;
+  font-weight: bolder;
+  height: 23px;
+  width: 60vw;
+  border: 2px solid white;
+  background-color: gray;
+  padding:10px;
+ }
+ .box1{
+  display: flex;
+  font-weight: bolder;
+  height: 23px;
+  width: 60vw;
+  border: 2px solid white;
+  background-color: gray;
+  padding:10px;
+ }
+ .box2{
+  display: flex;
+  font-weight: bolder;
+  height: 23px;
+  width: 60vw;
+  border: 2px solid white;
+  background-color: gray;
+  padding:10px;
+ }
+ .box3{
+  display: flex;
+  font-weight: bolder;
+  height: 23px;
+  width: 60vw;
+  border: 2px solid white;
+  background-color: gray;
+  padding:10px;
+ }
+ .box4{
+  display: flex;
+  
+  height: 23px;
+  width: 60vw;
+  border: 2px solid white;
+  background-color: gray;
+    padding:10px;
+    font-weight: bolder;
+    
+  }
+  .box5{
+    display: flex;
+     font-weight: bolder;
+    height: 23px;
+    width: 60vw;
+    border: 2px solid white;
+    background-color: gray;
+    padding:10px;
+    
+    font-weight: bolder;
+  }
+
+ footer{
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  
+ }
+ .faq div:hover{
+  background-color: antiquewhite;
+ }
+ 
+ h2{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 33px;
+ }
+ .av1{
+  padding-left: 790px;
+ }
+ .av2{
+  padding-left:46vw;
+ }
+ .av3{
+  padding-left: 760px;
+ }
+ .av4{
+  padding-left: 780px;
+ }
+ .av5{
+  padding-left: 735px;
+ }
+ .av6{
+  padding-left: 760px;
+ }
+ .lastfooter{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .container{
+ 
+  display: grid;
+  grid-template-columns: 240px 240px 240px ;
+  column-gap: 20px;
+  grid-gap: 16px;
+  padding: 80px;
+ }
+ @media screen and (max-width:1300px) {
+  .container {
+    display: grid;
+    grid-template-columns: 240px 240px;
+  }
+}
+ a{
+  color: rgb(98, 95, 95);
+ }
